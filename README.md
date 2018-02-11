@@ -1,5 +1,7 @@
 A collection of files with icon code mappings to quickly add icons to your fuse tools project. 
 
+[Fuse Tools Icon Fonts Documentation](https://www.fusetools.com/docs/assets/iconfont-import)
+
 Download the font file `.tff` and its associated `.js` file. The `Icons.ux` file is a global resource file, which creates the Icon Font resource. In the `.ux` file that you want to reference the font add the javascript file for the font `<JavaScript File="Resources/<icon-font>.js"/>`
 
 You can then reference the icon like so
@@ -25,6 +27,12 @@ https://material.io/icons/
     Global Reference: {Resource TiIcons}
     number of icons: 283
 http://s-ings.com/typicons/
+
+## Ionicons
+    Prefix: Ion
+    Global Reference: {Resource IonIcons}
+    number of icons: 732
+http://ionicons.com/
 
 ------------------------
 ### Preview
