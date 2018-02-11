@@ -1,3 +1,4 @@
+// http://s-ings.com/typicons/
 var Observable = require("FuseJS/Observable");
 
 module.exports = {

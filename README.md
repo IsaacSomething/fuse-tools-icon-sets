@@ -8,18 +8,25 @@ You can then reference the icon like so
 
 The `Value` is the font icon reference name with a prefix of the font initials.
 
-
 ## Foundation Icons
     Prefix: Fi
     Global Reference: {Resource FiIcons}
+    number of icons: 336
 https://zurb.com/playground/foundation-icon-fonts-3
 
 ## Material Icons
     Prefix: Mat
     Global Reference: {Resource MatIcons}
+    number of icons: 991
 https://material.io/icons/
 
 ## Typicons
     Prefix: Ti
     Global Reference: {Resource TiIcons}
+    number of icons: 283
 http://s-ings.com/typicons/
+
+------------------------
+### Preview
+
+![icons](Assets/icons-preview.jpg)
