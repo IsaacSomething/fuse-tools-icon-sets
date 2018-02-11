@@ -1,0 +1,5 @@
+<ux:Resources>
+  <Font ux:Global="FiIcons" File="../Assets/Fonts/foundation-icons.ttf" />
+  <Font ux:Global="MatIcons" File="../Assets/Fonts/MaterialIcons-Regular.ttf" />
+  <Font ux:Global="TiIcons" File="../Assets/Fonts/typicons.ttf" />
+</ux:Resources>

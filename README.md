@@ -1,0 +1,25 @@
+A collection of files with icon code mappings to quickly add icons to your fuse tools project. 
+
+Download the font file `.tff` and its associated `.js` file. The `Icons.ux` file is a global resource file, which creates the Icon Font resource. In the `.ux` file that you want to reference the font add the javascript file for the font `<JavaScript File="Resources/<icon-font>.js"/>`
+
+You can then reference the icon like so
+
+    <Text Value="{FiHome}" Font="{Resource FiIcons}" FontSize="22" Margin="10"/>
+
+The `Value` is the font icon reference name with a prefix of the font initials.
+
+
+## Foundation Icons
+    Prefix: Fi
+    Global Reference: {Resource FiIcons}
+https://zurb.com/playground/foundation-icon-fonts-3
+
+## Material Icons
+    Prefix: Mat
+    Global Reference: {Resource MatIcons}
+https://material.io/icons/
+
+## Typicons
+    Prefix: Ti
+    Global Reference: {Resource TiIcons}
+http://s-ings.com/typicons/
